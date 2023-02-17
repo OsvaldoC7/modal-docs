@@ -1,0 +1,49 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  align-self: center;
+}
+
+.title div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title > span {
+  align-self: self-end;
+  color: gray;
+  font-size: small;
+}
+
+.tu {
+  font-weight: 300;
+  font-size: 50px;
+  margin-right: 8px;
+}
+
+.conta {
+  font-weight: bolder;
+  color: rgb(71, 71, 228);
+  font-size: 50px;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+  color: grey;
+  font-size: small;
+}

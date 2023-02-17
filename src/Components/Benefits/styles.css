@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+}
+
+.video {
+  width: 60%;
+}
+
+.benefits {
+  width: 45%;
+}
+
+li > div {
+  display: flex;
+  flex-direction: column;
+}
+
+li > div > span {
+  font-size: small;
+}
